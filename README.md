@@ -4,6 +4,27 @@ Framework-agnostic rate limiting middleware for Express and Hono. It supports
 fixed-window, sliding-window, and token-bucket strategies, with an in-memory
 store by default and a Redis-like backend when you pass one.
 
+## Public Sample
+
+This repository is a public sample from **MIZZ by IJ** showing the expected
+shape of a small, fixed-scope developer utility: focused source files, README,
+usage examples, and a verification command.
+
+Request a similar scoped build:
+https://mizz-command-pack.euijin2002.workers.dev/agent-services#request
+
+Typical fit:
+
+- CI/log parser
+- Express/Hono middleware
+- docs checker
+- small Node/Python CLI
+- JSON or Markdown report generator
+- handoff packet for an agent or developer workflow
+
+Boundary: do not send account passwords, recovery material, browser session
+data, payment account details, or production account access.
+
 ## Install
 
 ```bash
